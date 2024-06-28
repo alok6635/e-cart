@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-    <header className='header'>
+    <header className='header sticky-top'>
       <div className='top_nav_wrapper'>
         <div className='container'>
           <div className='top_nav'>
