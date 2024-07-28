@@ -11,6 +11,10 @@ import { useState } from "react";
 
 const App = () => {
   const [data,setData]=useState([...items])
+<<<<<<< HEAD
+=======
+
+>>>>>>> f0700f975e022bfe183002a676dc98bd2ee0e4ea
   
   return (
     <>
