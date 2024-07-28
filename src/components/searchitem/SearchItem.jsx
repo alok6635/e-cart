@@ -1,7 +1,7 @@
 const SearchItem=()=>{
     return(
         <>
-        <p>dssd</p>
+        <p>searchitem page</p>
         </>
     )
 }

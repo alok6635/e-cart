@@ -1,21 +1,23 @@
 import React from 'react';
 import './header.scss';
 import { FaShoppingCart } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <>
-    <header className='header'>
+    <header className='header sticky-top'>
       <div className='top_nav_wrapper'>
         <div className='container'>
           <div className='top_nav'>
-            <a href="/">E-commerce</a>
+            <Link to={"/"}> E-cart </Link> 
             <form>
               <input type='text' placeholder='search products'/>
             </form>
             <div>
+              <Link to={"/cart"}>
               <FaShoppingCart className='cart_icon'/>
+              </Link>
             </div>
           </div>
         </div>
@@ -32,8 +34,8 @@ const Header = () => {
         <div className="item">{">="}89999</div>
       </div>
     </header>
-
     </>
   )
 }
+
 export default Header;

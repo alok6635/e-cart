@@ -1,7 +1,6 @@
-import { items } from "../../components/Data";
+import { items } from "./Data";
 
 const Product = () => {
-
     return (
         <>
             <div className='container my-5'>
@@ -23,10 +22,7 @@ const Product = () => {
                     }
                 </div>
             </div>
-
-
         </>
     )
 }
-
 export default Product;
